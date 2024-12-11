@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EZ Order Clone for WooCommerce\n"
+"POT-Creation-Date: 2024-07-17 00:00+0000\n"
+"PO-Revision-Date: 2024-07-17 00:00+0000\n"
+"Last-Translator: EZ Page - Cezary Borowski <cezary@ezpage.eu>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Clone"
+msgstr "Klonuj"
+
+msgid "You do not have permission to clone this order"
+msgstr "Nie masz uprawnień do klonowania tego zamówienia"
+
+msgid "Invalid order ID"
+msgstr "Nieprawidłowy identyfikator zamówienia"
+
+msgid "Order does not exist"
+msgstr "Zamówienie nie istnieje"
+
+msgid "Order has been cloned"
+msgstr "Zamówienie zostało sklonowane"
+
+msgid "Order cloning failed: "
+msgstr "Niepowodzenie klonowania zamówienia: "

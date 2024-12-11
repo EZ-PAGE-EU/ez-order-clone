@@ -1,0 +1,15 @@
+CHANGELOG
+
+EZ Order Clone for WooCommerce - a simple plugin to clone WooCommerce orders
+
+
+-------
+v.1.0.0:
+* Added cloning for WC orders:
+    - single and variable products
+    - billing and shipping addresses
+    - shipping methods
+    - taxes
+    - coupons
+    - payment method
+    - custom fields: billing_nip ONLY
