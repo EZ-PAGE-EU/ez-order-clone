@@ -4,7 +4,7 @@
  * Plugin Name: EZ Order Clone for WooCommerce
  * Plugin URI:  https://ezpage.eu
  * Description: A simple plugin to clone WooCommerce orders
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      EZ PAGE
  * Author URI:  https://ezpage.eu
  * License: GPLv3

@@ -37,8 +37,8 @@ if ( ! class_exists( 'EZ_Order_Clone_Cloning' ) ) {
                 exit;
             }
 
-            wp_redirect( admin_url( 'edit.php?post_type=shop_order&ez_order_cloned=true' ) );
-            exit;
+            wp_redirect( admin_url( 'edit.php?post_type=shop_order&ez_order_cloned=true&cloned_order_id=' . $new_order->get_id() ) );
+            exit; // Redirect to the orders page with the cloned order ID
         }
 
         // Create a cloned order

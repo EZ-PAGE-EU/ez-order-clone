@@ -13,6 +13,7 @@ if ( ! class_exists( 'EZ_Order_Clone' ) ) {
             add_action( 'admin_post_ez_clone_order', array( __CLASS__, 'handle_clone_order' ) );
             add_action( 'admin_notices', array( __CLASS__, 'admin_notices' ) );
             add_action( 'admin_head', array( __CLASS__, 'add_custom_order_actions_button_css' ) );
+            add_action( 'admin_enqueue_scripts', array( __CLASS__, 'enqueue_scripts' ) );
 
             require_once plugin_dir_path(__FILE__) . 'cloning.php';
             require_once plugin_dir_path(__FILE__) . 'notices.php';
@@ -49,5 +50,12 @@ if ( ! class_exists( 'EZ_Order_Clone' ) ) {
         public static function admin_notices() {
             EZ_Order_Clone_Notices::admin_notices();
         }
+
+        // Enqueue scripts and styles
+        public static function enqueue_scripts() {
+            wp_enqueue_script( 'ez-clone-highlight', plugin_dir_url(__FILE__) . '../js/clone-highlight.js', array('jquery'), '1.0.0', true );
+            wp_enqueue_style( 'ez-clone-highlight', plugin_dir_url(__FILE__) . '../css/styling.css' );
+        }
+
     }
 }

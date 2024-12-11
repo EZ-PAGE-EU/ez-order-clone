@@ -1,0 +1,17 @@
+
+/*Clone highliht*/
+.cloned-order {
+    animation: blink 1s linear 2;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #f6f7f7;
+    }
+    50% {
+        background-color: #d4edda
+    }
+    100% { 
+        background-color: #f6f7f7;
+    }
+}
